@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollman Alvarez | Executive Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --accent: #3366ff; --bg: #0f172a; --card: #1e293b; --text: #f8fafc; --whatsapp: #25d366; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 15px; padding-bottom: 100px; }
+        .container { max-width: 500px; margin: 0 auto; }
+        
+        header { text-align: center; padding: 20px 0; }
+        .profile-pic { width: 140px; height: 140px; border-radius: 50%; border: 3px solid var(--accent); object-fit: cover; box-shadow: 0 0 30px rgba(51,102,255,0.4); margin-bottom: 15px; }
+        h1 { font-size: 1.8rem; margin: 0; font-weight: 800; text-transform: uppercase; }
+        .role { color: var(--accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 10px 0; }
+        
+        .cta-button { display: block; background: var(--accent); color: white; text-decoration: none; text-align: center; padding: 15px; border-radius: 12px; font-weight: 700; margin: 15px 0; font-size: 1rem; transition: 0.3s; }
+        .cta-button:hover { transform: scale(1.02); }
 
+        .ws-float { position: fixed; bottom: 25px; right: 20px; background: var(--whatsapp); color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(0,0,0,0.4); z-index: 999; text-decoration: none; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
+
+        .section-card { background: var(--card); border-radius: 20px; padding: 20px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.08); }
+        h2 { font-size: 0.7rem; color: #64748b; letter-spacing: 2px; margin-bottom: 15px; border-left: 3px solid var(--accent); padding-left: 12px; text-transform: uppercase; }
+        
+        .bilingual-box { margin-bottom: 12px; }
+        .es { font-size: 0.9rem; color: #f8fafc; display: block; }
+        .en { font-size: 0.8rem; color: #94a3b8; font-style: italic; display: block; margin-top: 2px; }
+
+        .info-grid { font-size: 0.85rem; line-height: 1.6; color: #cbd5e1; }
+        .info-grid b { color: var(--accent); }
+
+        .partners { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; filter: grayscale(1) brightness(2); margin-top: 10px; }
+        .partners img { width: 100%; height: 25px; object-fit: contain; }
+
+        .metrics { display: flex; justify-content: space-around; text-align: center; background: rgba(51,102,255,0.05); border-radius: 15px; padding: 15px 0; border: 1px solid rgba(51,102,255,0.2); }
+        .num { font-size: 1.4rem; font-weight: 800; color: var(--accent); display: block; }
+        .label { font-size: 0.55rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://i.ibb.co/v4mS8yX/hollman-profile-clean.jpg" class="profile-pic" alt="Hollman Alvarez">
+            <h1>HOLLMAN ALVAREZ</h1>
+            <div class="role">CEO & Founder CampusLA</div>
+            <a href="https://www.campuslatinoamerica.edu.co" class="cta-button" target="_blank">Visit CampusLA / Visitar Web</a>
+        </header>
+
+        <div class="section-card">
+            <h2>Bio & Details / Datos Personales</h2>
+            <div class="info-grid">
+                <b>🎂 Birthday:</b> 24/07/1986<br>
+                <b>📍 Address:</b> Cra 1 No 26-89, Down Town, Duitama<br>
+                <b>📧 Email:</b> ceo@campuslatinoamerica.edu.co
+                <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 15px 0;">
+                <div class="bilingual-box">
+                    <span class="es">Estratega en gestión de activos y arquitectura de marcas.</span>
+                    <span class="en">Asset management strategist and brand architect.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <h2>Track Record / Resultados</h2>
+            <div class="metrics">
+                <div><span class="num" data-val="6000">0</span><span class="label">Grads / Egresados</span></div>
+                <div><span class="num" data-val="80">0</span><span class="label">Seed / Capital</span></div>
+                <div><span class="num" data-val="23">0</span><span class="label">VC Deals / Acuerdos</span></div>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <h2>Achievements / Logros</h2>
+            <div class="bilingual-box">
+                <span class="es">🏆 CEO Innovador EdTech 2024</span>
+                <span class="en">🏆 2024 EdTech Innovative CEO</span>
+            </div>
+            <div class="bilingual-box">
+                <span class="es">⚖️ 17 Tutelas ganadas (Estrategia Legal)</span>
+                <span class="en">⚖️ 17 Successful legal processes (Legal Strategy)</span>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <h2>Global Partners / Aliados</h2>
+            <div class="partners">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Harvard_University_logo.svg/1200px-Harvard_University_logo.svg.png">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stanford_University_logo.svg/1200px-Stanford_University_logo.svg.png">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/ETS_Logo.png">
+                <img src="https://www.britishcouncil.co/sites/default/files/bc-logo.png">
+            </div>
+        </div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=573144365569&text=Hola%20Hollman,%20vi%20tu%20perfil%20y%20me%20interesa%20conectar." class="ws-float" target="_blank">
+        <svg width="30" height="30" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.659 1.437 5.63 1.438h.004c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script>
+        // Animación de los números
+        document.querySelectorAll('.num').forEach(c => {
+            const up = () => {
+                const t = +c.getAttribute('data-val');
+                const n = +c.innerText;
+                const inc = t / 40;
+                if(n < t) { c.innerText = Math.ceil(n + inc); setTimeout(up, 40); }
+                else { c.innerText = t + "+"; }
+            };
+            up();
+        });
+    </script>
+</body>
+</html>
